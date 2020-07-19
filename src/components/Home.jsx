@@ -1,8 +1,9 @@
 import React from "react"
+import "../stylesheets/Home.scss"
 
 export default function Home() {
   return (
-    <div className="home">
+    <div className="home-section" id="home" >
       <h1>Home</h1>
       <p>
         Hi :) I'm <span>Achin Mandotia</span>

@@ -4,18 +4,18 @@ import Blog from "./Blog"
 import About from "./About"
 import Project from "./Project"
 import Contact from "./Contact"
-import Navbar from "./Navbar"
+import Header from "./Header"
 
 function App() {
   return (
-    <div>
-      <Navbar />
+    <>
       <Home />
+      <Header />
       <About />
       <Project />
       <Blog />
       <Contact />
-    </div>
+    </>
   )
 }
 
