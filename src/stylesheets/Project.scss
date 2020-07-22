@@ -1,0 +1,28 @@
+.project-section{
+    height: 100vh;
+    overflow-y: auto;
+    padding: 100px 0 100px 0;
+    background-color: #BF611E;
+
+}
+
+.title{
+    text-align: center;
+    font-size: 5vh;
+    text-decoration: underline;
+    color: #112351;
+}
+
+.project-cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6em;
+}
+
+.card-img-top {
+    border-radius: 0px;
+    max-width: 100%;
+    object-fit: cover;
+    width: 100%;
+    height: 15vw;
+}

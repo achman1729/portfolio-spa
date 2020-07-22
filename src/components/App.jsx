@@ -1,6 +1,5 @@
 import React from "react"
 import Home from "./Home"
-import Blog from "./Blog"
 import About from "./About"
 import Project from "./Project"
 import Contact from "./Contact"
@@ -13,7 +12,6 @@ function App() {
       <Header />
       <About />
       <Project />
-      <Blog />
       <Contact />
     </>
   )

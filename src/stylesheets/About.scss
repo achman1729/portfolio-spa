@@ -1,0 +1,87 @@
+
+%skill-button {
+  justify-self: center;
+  align-self: start;
+  font-size: 2.5vh;
+  border-radius: 100px;
+  background-color: #BF611E;
+  color: #FDFFFC;
+  padding: 10px 20px 10px 20px;
+}
+
+.about-section{
+    height: 100vh;
+    overflow-y: auto;
+    padding: 100px 0 100px 0;
+
+}
+
+.item1 { grid-area: header; }
+.item2 { grid-area: skill1; }
+.item3 { grid-area: skill2; }
+.item4 { grid-area: skill3; }
+.item5 { grid-area: skill4; }
+.item6 { grid-area: about; }
+.item7 { grid-area: chart; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 300px 1fr 1fr;
+  grid-template-areas:
+    'header header header header'
+    'skill1 skill2 skill3 skill4'
+    'about about chart chart';
+  grid-gap: 10px;
+  padding: 10px;
+  height: 100%;
+}
+
+  .grid-container 
+  {
+    .item1 {
+        text-align: center;
+        font-size: 5vh;
+        text-decoration: underline;
+        color: #112351;
+      }
+    .item2{
+      @extend %skill-button;
+      } 
+    .item3{
+      @extend %skill-button;
+      } 
+    .item4{
+      @extend %skill-button;
+      } 
+    .item5{
+      @extend %skill-button;
+      } 
+    .item7{
+      margin-left: 50px;
+      margin-right: 50px;
+    }
+
+  }
+
+img{
+  max-width: 30%;
+  border-radius: 100px;
+
+}
+.image{
+display: flex;
+justify-content: center;
+margin-bottom: 2.5em;
+}
+
+.text{
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+em{
+  text-decoration: none;
+  color: #BF611E;
+  font-size: 1.2em;
+  font-weight: 500;
+}
